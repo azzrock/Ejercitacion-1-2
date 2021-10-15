@@ -37,3 +37,23 @@ Ejercicio 1: inicializar un repositorio local con solo este archivo. Luego
   #para descartar cambios en el commit 
 	>git checkout -- .
   #
+########creacion de ootras ramas###################################################
+#generamos una rama (develop) desde repositorio remoto y luego traemos
+#la informacion ,que se realizo en el remoto, al local con :
+	>git fetch
+#Ahora vamos a mostrar todas las ramas existentes tanto local
+#como remoto (ACTUALIZADAS porque las modificaciones no traidas del remoto no se ve)
+	>git branch -a
+#generar una rama desde repositorio local
+#primero posicionarse en la rama donde se quiera sacar otra rama
+	>git checkout develop
+#crear rama desde develop
+	>git branch feature/gabriel/login
+#Luego pararme en la rama creada
+	>git cheackout feature/gabriel/login
+#Esta rama creada solo existe en el repositorio local
+#para enviarle la info de la creacion, al repositorio remoto
+	>git push origin feature/gabriel/login
+#Cuando se modifica algo en algun archivo se puede saber
+#las diferencias de lo viejo con lo nuevo que se agrego con
+	>git diff
