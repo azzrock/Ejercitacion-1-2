@@ -1,0 +1,8 @@
+git init: inicializar repositorios locales
+git status: ver cambios que se han producidos
+git remote (add ó -v): para agregar repositorio remoto o version
+git diff: ve diferencias de lo nuevo con lo viejo hecho
+git checkout: permite movernos por ramas
+git log: historial de los commit
+git --help: comandos del git
+
