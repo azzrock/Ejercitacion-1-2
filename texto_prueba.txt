@@ -19,5 +19,9 @@ Ejercicio 1: inicializar un repositorio local con solo este archivo. Luego
 	>git remote add origin https://github.com/azzrock/Ejercitacion-1-2.git
   >Enviar informacion al repositorio remoto (origin) desde la rama master local
 	>git push origin master
-######################################################################
-
+################EJERCICIO 2######################################################
+  #Modificar el archivo de texto y luego enviar la informacion al repositorio remoto
+	>git status
+	>git add .
+	>git commit -m "Ejercicio 2:Modificacion de archivo de texto"
+	>git push origin master
