@@ -71,3 +71,15 @@ Ejercicio 1: inicializar un repositorio local con solo este archivo. Luego
 #Luego llevar la info de el merge realizado localmente al remoto
         >git push origin develop
 ###asi se va a ver los cambios que haya hecho login, en mi rama develop###
+
+
+##################MERGE desde GITHUB#################
+#pull requests
+#new pull requests
+#desde develop hacia master
+#agregar comentario
+#confirmar merge
+###luego todo lo de  la rama develop aparecera en la rama master###
+###para poder ver los cambios que se hayan hecho en el repositorio remoto
+###en el repositorio local es necesario traerse la informacion hecha
+	> git pull origin master 
