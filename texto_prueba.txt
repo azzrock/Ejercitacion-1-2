@@ -1,0 +1,23 @@
+Ejercicio 1: inicializar un repositorio local con solo este archivo. Luego
+             subir archivo a un repositorio remoto
+  >Establecer nombre de usuario y correo
+	>git config --global user.name "azzrock"
+	>git config --global user.email "laime514@gmail.com"
+  >Comprobacion de los valores ejecutados
+	>git config --list
+	user.name=azzrock
+  >Crear nuevo repositorio local 
+	>git init
+  >Mostrar informacion sobre la rama que estamos parada (master)
+	>git status
+	el texto creado no se actualizo en el commit
+  >Agregar la actualizacion de la creacion del texto al commit
+	>git add .    (añade todo lo modificado de una vez)
+  >agregar punto de control a todo lo que hallamos modificado en mi commit
+	>git commit -m "Creacion de archivo de texto: Documentacion de comandos realizados."
+  >Vincular este repositorio local con el remoto
+	>git remote add origin https://github.com/azzrock/Ejercitacion-1-2.git
+  >Enviar informacion al repositorio remoto (origin) desde la rama master local
+	>git push origin master
+######################################################################
+
