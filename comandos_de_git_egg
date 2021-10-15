@@ -57,3 +57,17 @@ Ejercicio 1: inicializar un repositorio local con solo este archivo. Luego
 #Cuando se modifica algo en algun archivo se puede saber
 #las diferencias de lo viejo con lo nuevo que se agrego con
 	>git diff
+
+
+
+
+##################MERGE ENTRE RAMAS############################################>
+
+#SIEMPRE HACER UN PULL para traerse la informacion que hayan hecho
+#otros usuarios en la rama
+#MErge de login a develop (pararnos en la rama develop)
+        >git merge feature/gabriel/login
+#Si sale algun comflicto tratar de descartar checkkout -- .
+#Luego llevar la info de el merge realizado localmente al remoto
+        >git push origin develop
+###asi se va a ver los cambios que haya hecho login, en mi rama develop###
