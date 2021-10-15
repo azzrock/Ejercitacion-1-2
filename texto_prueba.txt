@@ -25,3 +25,15 @@ Ejercicio 1: inicializar un repositorio local con solo este archivo. Luego
 	>git add .
 	>git commit -m "Ejercicio 2:Modificacion de archivo de texto"
 	>git push origin master
+#####Moverse entre otros commits#########
+  #ver historial de todos los commit
+	>git log
+  #copiar codigo del commit al que se quiera volver y luego 
+  #nos posicionamos en el commit copiado. Esto nos volvera a posicionar en 
+  #el punto de control del commit que se quiso volver 
+	>git checkout <codigo del commit> 
+  #volver a tener como encabezado al commit master
+	>git checkout master
+  #para descartar cambios en el commit 
+	>git checkout -- .
+  #
